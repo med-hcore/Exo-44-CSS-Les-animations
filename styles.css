@@ -1,0 +1,39 @@
+p {
+    background-color: orange;
+    size: 100px;
+    height: 50px;
+    width: 100px;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes animation {
+    from {
+        background-color: orange;
+        font-size: 10px;
+        height: 50px;
+        width: 100px;
+        transform: rotate(0deg);
+    }
+    to {
+        background-color: lightgray;
+        font-size: 30px;
+        height: 100px;
+        width: 200px;
+        transform: rotate(50deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
